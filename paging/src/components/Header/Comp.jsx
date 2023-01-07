@@ -39,7 +39,7 @@ const HeaderBox = styled.div`
       align-items: center;
       padding: 20px 0;
       & > div {
-        padding: 5px 20px;
+        padding: 5px 25px;
         font-size: 1.2rem;
         border-radius: 20px;
         position: relative;
@@ -57,5 +57,6 @@ const HeaderBox = styled.div`
     color: white;
     position: absolute;
     right: 0;
+    padding: 0 5px;
   }
 `;

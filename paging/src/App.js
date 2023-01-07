@@ -1,8 +1,7 @@
+import "./App.css";
 import { Routes, Route } from "react-router-dom";
 
 import MainPage from "./components/pages/Main";
-
-import "./App.css";
 
 function App() {
   return (
@@ -15,3 +14,18 @@ function App() {
 }
 
 export default App;
+
+// const backgroundArr = ["./imgs/plus.png", "./imgs/minus-sign.png"];
+// const randomIndex = Math.floor(Math.random() * backgroundArr.length);
+// const backgroundImg = backgroundArr[randomIndex];
+// <Container>{/* <img src={`${img1}`} alt="" /> */}</Container>
+// const Container = styled.div`
+//   width: 100vw;
+//   height: 100vh;
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-image: url(${backgroundImg});
+// `;
+
+// background-image: url
+// (${(props) => (props.backgroundImg ? props.backgroundImg : "")});

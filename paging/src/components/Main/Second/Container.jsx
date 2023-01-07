@@ -19,6 +19,14 @@ const SecondContainer = () => {
         "저희는 사람들이 목적지까지 편안하게 이동할 뿐만 아니라 빠르고 저렴하게 음식을 주문할 수 있도록 돕고, 의료 서비스 장벽을 허물고 새로운 화물 운송 예약 솔루션을 개발하며, 기업이 임직원에게 원활한 이동 수단을 제공할 수 있도록 돕고 있습니다. 또한 기사님들이 운행 및 배달을 통해 수익을 창출할 수 있도록 돕죠.",
       etc: "Uber 앱 이용 방법 ",
     },
+    {
+      imgSrc:
+        "https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_698,h_465/v1555433729/assets/13/b383de-93a1-4327-8812-91de86e3edd9/original/_background-01.svg",
+      title: "여러분의 안전이 Uber의 동력입니다",
+      detail:
+        "Uber가 중요하게 생각하는 것은 승객과 기사의 안전입니다. Uber는 모두의 안전을 위해 최선을 다하고 있으며 그 핵심에는 Uber의 최첨단 기술이 자리하고 있습니다. Uber는 안전 단체와 협력하여 더욱 안전하고 편리한 차량 서비스를 제공하기 위한 기술과 시스템을 만들어 갑니다.",
+      etc: "자세히 알아보기 ",
+    },
   ]);
   return <SecondComp dataArr={dataArr} />;
 };
